@@ -7,13 +7,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Welcome"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
-        android:layout_marginTop="64dp"
-        android:text="TextView"
+        android:layout_marginTop="@dimen/tvTopMargin"
+        android:text="Hello"
+        android:textSize="@dimen/titleTextSize"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,32 +21,35 @@
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="@dimen/editTextHeight"
-        android:layout_marginBottom="440dp"
+        android:layout_marginBottom="@dimen/etBottomMargin"
         android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="372dp"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:layout_marginEnd="@dimen/buttonSideMargin"
+        android:layout_marginBottom="@dimen/buttonBottomMargin"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAllCaps="false"  />
+
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginBottom="372dp"
-        android:text="Button"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:layout_marginStart="@dimen/buttonSideMargin"
+        android:layout_marginBottom="@dimen/buttonBottomMargin"
+        android:text="Go To App"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
