@@ -8,47 +8,51 @@
 
     <TextView
         android:id="@+id/Welcome"
-        android:layout_width="@dimen/textViewWidth"
-        android:layout_height="@dimen/textViewHeight"
-        android:layout_marginTop="@dimen/tvTopMargin"
+        android:layout_width="140dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="56dp"
         android:text="Hello"
         android:textSize="@dimen/titleTextSize"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="@dimen/editTextHeight"
-        android:layout_marginBottom="@dimen/etBottomMargin"
+        android:layout_marginBottom="376dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/textTypes"
+        />
+
 
     <Button
         android:id="@+id/button2"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
-        android:layout_marginEnd="@dimen/buttonSideMargin"
-        android:layout_marginBottom="@dimen/buttonBottomMargin"
-        android:text="Button"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="200dp"
+        android:text="Sign up"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textAllCaps="false"  />
-
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
-        android:layout_marginStart="@dimen/buttonSideMargin"
-        android:layout_marginBottom="@dimen/buttonBottomMargin"
-        android:text="Go To App"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="200dp"
+        android:text="Go to app"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

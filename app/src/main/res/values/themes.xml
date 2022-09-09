@@ -13,4 +13,11 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <style name="textTypes" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:background">@color/secondaryColor</item>
+        <item name="android:textColor">@color/primaryDarkColor</item>
+        <item name="android:textColorHint">@color/primaryDarkColor</item>
+    </style>
 </resources>
