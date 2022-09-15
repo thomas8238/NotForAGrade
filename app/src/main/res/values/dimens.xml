@@ -7,8 +7,9 @@
     <dimen name="titleTextSize">60dp</dimen>
     <dimen name="buttonWidth">110dp</dimen>
     <dimen name="buttonHeight">60dp</dimen>
-    <dimen name ="buttonBottomMargin" >268dp</dimen>
+    <dimen name ="buttonBottomMargin" >168dp</dimen>
     <dimen name ="buttonSideMargin" >44dp</dimen>
     <dimen name ="etBottomMargin" >400dp</dimen>
     <dimen name ="tvTopMargin" >64dp</dimen>
+    <dimen name ="emailPadding" >10dp</dimen>
 </resources>
