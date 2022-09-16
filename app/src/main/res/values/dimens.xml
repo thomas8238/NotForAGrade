@@ -2,7 +2,7 @@
 <resources>
     <dimen name="textViewWidth">138dp</dimen>
     <dimen name="textViewHeight">71</dimen>
-    <dimen name="editTextWidth">200dp</dimen>
+    <dimen name="linearWidth">200dp</dimen>
     <dimen name="editTextHeight">60dp</dimen>
     <dimen name="titleTextSize">60dp</dimen>
     <dimen name="buttonWidth">110dp</dimen>
@@ -12,4 +12,5 @@
     <dimen name ="etBottomMargin" >400dp</dimen>
     <dimen name ="tvTopMargin" >64dp</dimen>
     <dimen name ="emailPadding" >10dp</dimen>
+    <dimen  name = "buttonRadius" > 10dp </dimen>
 </resources>

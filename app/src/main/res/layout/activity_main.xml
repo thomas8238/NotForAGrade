@@ -8,33 +8,37 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signUp"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginEnd="@dimen/buttonSideMargin"
         android:layout_marginBottom="@dimen/buttonBottomMargin"
         android:gravity="center"
+        android:shadowColor="#000C51"
         android:text="Sign up"
         android:textAllCaps="false"
+        app:cornerRadius="@dimen/buttonRadius"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/logIn"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginStart="@dimen/buttonSideMargin"
         android:layout_marginBottom="@dimen/buttonBottomMargin"
         android:gravity="center"
+        android:shadowColor="#000C51"
         android:text="Go to app"
         android:textAllCaps="false"
+        app:cornerRadius="@dimen/buttonRadius"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 
     <LinearLayout
-        android:layout_width="203dp"
-        android:layout_height="366dp"
+        android:layout_width="@dimen/linearWidth"
+        android:layout_height="350dp"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
@@ -45,38 +49,55 @@
 
         <TextView
             android:id="@+id/Welcome"
-            android:layout_width="match_parent"
-            android:layout_height="102dp"
+            android:layout_width="@dimen/linearWidth"
+            android:layout_height="@dimen/textViewHeight"
             android:gravity="center"
             android:text="Hello"
-            android:textSize="@dimen/titleTextSize" />
+            android:textSize="@dimen/titleTextSize"
+            style="@style/welcomeText"/>
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
-            style="@style/textTypes"
-            android:layout_width="match_parent"
+            android:id="@+id/editTextName"
+            android:layout_width="@dimen/linearWidth"
             android:layout_height="@dimen/editTextHeight"
-
             android:ems="10"
             android:gravity="center"
-            android:hint="Name"
+            android:hint="Whats your name?"
             android:inputType="textPersonName"
+            style="@style/welcomeText"
 
 
             />
+
         <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/editTextEmail"
+            style="@style/emailPasswordText"
+            android:layout_width="@dimen/linearWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:layout_marginTop="60dp"
             android:ems="10"
-            android:layout_marginTop="80dp"
-            android:hint="Enter email"
+            android:hint="Enter Email"
             android:inputType="textPersonName"
             android:paddingHorizontal="@dimen/emailPadding"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent" />
+        <EditText
+            android:id="@+id/editTextPassword"
+            style="@style/emailPasswordText"
+            android:layout_width="@dimen/linearWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="@dimen/emailPadding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
     </LinearLayout>
 
 

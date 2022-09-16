@@ -15,9 +15,14 @@
     </style>
 
 
-    <style name="textTypes" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="emailPasswordText" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="android:background">@color/secondaryColor</item>
         <item name="android:textColor">@color/primaryDarkColor</item>
         <item name="android:textColorHint">@color/primaryDarkColor</item>
+    </style>
+    <style name="welcomeText" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:background">@color/primaryTextColor</item>
+        <item name="android:textColor">@color/primaryDarkColor</item>
+        <item name="android:textColorHint">@color/primaryColor</item>
     </style>
 </resources>
